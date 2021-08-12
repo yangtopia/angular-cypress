@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.6](https://github.com/yangtopia/angular-cypress/compare/v0.2.5...v0.2.6) (2021-08-12)
+
+
+### :rocket: New Features
+
+* TEST 19 ([b9969b7](https://github.com/yangtopia/angular-cypress/commit/b9969b7772d648c0486b203ef2872f60e3bc7333))
+* TEST 20 ([c8d2492](https://github.com/yangtopia/angular-cypress/commit/c8d2492423a30b4cffef4456a0b62f01a00c8e21))
+* TEST 21 ([badeacb](https://github.com/yangtopia/angular-cypress/commit/badeacbc5347f375ed15e0b691008046777415d6))
+* TEST 22 ([25f4e58](https://github.com/yangtopia/angular-cypress/commit/25f4e5835e15334d5103c9d70ac32c1d9681e46d))
+* TEST 23 ([7e7aaed](https://github.com/yangtopia/angular-cypress/commit/7e7aaed213a981c4819c32a92768ca78f7f9ac11))
+* TEST 25 ([48b6de9](https://github.com/yangtopia/angular-cypress/commit/48b6de9634c91ef3b5a524738d85f8aa10026e2f))
+* TEST 26 ([5df58ba](https://github.com/yangtopia/angular-cypress/commit/5df58ba767bf671a83ac9dc06816c10d0990ea8e))
+
 ### 0.2.5 (2021-08-12)
 
 
