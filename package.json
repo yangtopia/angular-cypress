@@ -11,14 +11,13 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "lint": "ng lint",
-    "release": "git-branch-is master && standard-version"
+    "release": "standard-version"
   },
   "private": true,
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "npm run release"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "commitlint": {
