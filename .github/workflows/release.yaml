@@ -22,13 +22,13 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run Release
-        run: npm run release
-
       - name: Git Setup
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
+      - name: Run Release
+        run: npm run release
 
       - name: Git push
         uses: ad-m/github-push-action@master
