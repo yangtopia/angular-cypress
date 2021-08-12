@@ -22,8 +22,4 @@ jobs:
         run: npm install
 
       - name: Release
-        run: npm run release
-
-      - name: Git Push
-        run: git push --follow-tags origin main
-
+        run: npm run github-release
