@@ -11,8 +11,7 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "lint": "ng lint",
-    "release": "standard-version",
-    "github:release": "conventional-github-releaser -p angular -t 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"
+    "release": "standard-version"
   },
   "private": true,
   "commitlint": {
