@@ -13,6 +13,6 @@ jobs:
     steps:
       - uses: release-drafter/release-drafter@v5
        with:
-         config-name: release-config.yml
+         config-name: release-config.yaml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
