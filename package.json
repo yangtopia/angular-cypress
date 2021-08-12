@@ -12,7 +12,7 @@
     "cypress:run": "cypress run",
     "lint": "ng lint",
     "release": "standard-version",
-    "github-release": "conventional-github-releaser -p angular -t ${{ github.token }}"
+    "github:release": "conventional-github-releaser -p angular"
   },
   "private": true,
   "commitlint": {

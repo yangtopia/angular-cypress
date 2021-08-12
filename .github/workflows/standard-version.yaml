@@ -22,4 +22,5 @@ jobs:
         run: npm install
 
       - name: Release
-        run: npm run github-release
+        run: |
+          conventional-github-releaser -p angular -t ${{ github.token }}
