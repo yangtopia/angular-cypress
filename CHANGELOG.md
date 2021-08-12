@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.2.4 (2021-08-12)
+
+
+### :rocket: New Features
+
+* TEST 17 ([aef3526](https://github.com/yangtopia/angular-cypress/commit/aef352612f4fb2ba553e8298f826aae6f305650c))
+
 ### 0.2.3 (2021-08-12)
 
 
