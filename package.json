@@ -11,7 +11,7 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "lint": "ng lint",
-    "release": "standard-version --skip.commit"
+    "release": "standard-version"
   },
   "private": true,
   "commitlint": {
