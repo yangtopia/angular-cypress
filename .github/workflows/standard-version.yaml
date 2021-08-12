@@ -1,0 +1,29 @@
+name: standard-version
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  standard-version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source Code
+        uses: actions/checkout@v2
+
+      - name: Cache node modules
+        uses: actions/cache@v2.1.2
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.OS }}-build-${{ runner.OS }}
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Release
+        run: npm run release
+
+      - name: Git Push
+        run: git push --follow-tags origin main
+
