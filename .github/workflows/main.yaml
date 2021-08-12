@@ -1,6 +1,6 @@
 name: Cypress E2E Test
 
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   cypress-run:
