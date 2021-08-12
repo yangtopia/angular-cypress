@@ -2,41 +2,14 @@ name: release
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "v*.*.*"
 
 jobs:
-  standard-version:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source Code
+      - name: Checkout
         uses: actions/checkout@v2
-
-      - name: Cache node modules
-        uses: actions/cache@v2.1.2
-        with:
-          path: node_modules
-          key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.OS }}-build-${{ runner.OS }}
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Git Setup
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-      - name: Run Release
-        run: npm run release
-
-      - name: Git push
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-          tags: true
-
-      - name: Tags
-        run: |
-          echo ${{ github.ref }}
+      - name: Release
+        uses: softprops/action-gh-release@v1
