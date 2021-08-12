@@ -9,7 +9,8 @@ jobs:
   github-release:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout source Code
         uses: actions/checkout@v2
+
       - name: Release
         uses: softprops/action-gh-release@v1
