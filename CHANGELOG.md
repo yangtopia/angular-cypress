@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://www.github.com/yangtopia/angular-cypress/compare/v0.2.0...v0.3.0) (2021-08-12)
+
+
+### Features
+
+* TEST 11 ([185d01f](https://www.github.com/yangtopia/angular-cypress/commit/185d01f79dcfea5c16bb7956fb94fa09ff3443f7))
+* TEST 12 ([606f03f](https://www.github.com/yangtopia/angular-cypress/commit/606f03f1e243929b9bf037c3163444d4c41439d2))
+* TEST 13 ([890f6ed](https://www.github.com/yangtopia/angular-cypress/commit/890f6ed7dd1731906cf89d595b134e0f59acc6e7))
+* TEST 14 ([adffb05](https://www.github.com/yangtopia/angular-cypress/commit/adffb05da0e4bf66a73f72031d76d67551ce3203))
+* TEST 15 ([cbd5152](https://www.github.com/yangtopia/angular-cypress/commit/cbd5152f74015114558b6ea735ab794378042ccc))
+* TEST 16 ([a1fdab5](https://www.github.com/yangtopia/angular-cypress/commit/a1fdab58f7ab282e6154f65b8898c505b9e6b776))
+* TEST 17 ([aef3526](https://www.github.com/yangtopia/angular-cypress/commit/aef352612f4fb2ba553e8298f826aae6f305650c))
+* TEST 18 ([7f81d2b](https://www.github.com/yangtopia/angular-cypress/commit/7f81d2b45d32e2aae3704b4fd19b3ae650b271da))
+* TEST 19 ([b9969b7](https://www.github.com/yangtopia/angular-cypress/commit/b9969b7772d648c0486b203ef2872f60e3bc7333))
+* TEST 20 ([c8d2492](https://www.github.com/yangtopia/angular-cypress/commit/c8d2492423a30b4cffef4456a0b62f01a00c8e21))
+* TEST 21 ([badeacb](https://www.github.com/yangtopia/angular-cypress/commit/badeacbc5347f375ed15e0b691008046777415d6))
+* TEST 22 ([25f4e58](https://www.github.com/yangtopia/angular-cypress/commit/25f4e5835e15334d5103c9d70ac32c1d9681e46d))
+* TEST 23 ([7e7aaed](https://www.github.com/yangtopia/angular-cypress/commit/7e7aaed213a981c4819c32a92768ca78f7f9ac11))
+* TEST 25 ([48b6de9](https://www.github.com/yangtopia/angular-cypress/commit/48b6de9634c91ef3b5a524738d85f8aa10026e2f))
+* TEST 26 ([5df58ba](https://www.github.com/yangtopia/angular-cypress/commit/5df58ba767bf671a83ac9dc06816c10d0990ea8e))
+* TEST10 ([7f5d6e8](https://www.github.com/yangtopia/angular-cypress/commit/7f5d6e8ba1d982d964757c16b29dd84ff9e94dee))
+* TEST7 ([31d3202](https://www.github.com/yangtopia/angular-cypress/commit/31d32027f80a5aa2802afc202889fbb01b539cc2))
+* TEST8 ([cfb421c](https://www.github.com/yangtopia/angular-cypress/commit/cfb421ccd392132db1ab9594dcb7114e6414f80c))
+* TEST9 ([21f573a](https://www.github.com/yangtopia/angular-cypress/commit/21f573afa1e458d3a1fb003eaed04758974c70c2))
+
+
+### Bug Fixes
+
+* dependencies ([bb54cf2](https://www.github.com/yangtopia/angular-cypress/commit/bb54cf2bca90a87b5a4cde61deebb2d8f0a612fb))
+* test ([bdd8bfb](https://www.github.com/yangtopia/angular-cypress/commit/bdd8bfb0f1c99cddcaa052449c197881ad83e138))
+* test ([5c137e1](https://www.github.com/yangtopia/angular-cypress/commit/5c137e1488a18879e4376c857c3f9d4416fcb1ec))
+
 ### [0.2.9](https://github.com/yangtopia/angular-cypress/compare/v0.2.8...v0.2.9) (2021-08-12)
 
 
