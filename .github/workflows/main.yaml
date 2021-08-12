@@ -1,0 +1,28 @@
+name: Cypress E2E Test
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source Code
+        uses: actions/checkout@v2
+
+      - name: Cache node modules
+        uses: actions/cache@v2.1.2
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.OS }}-build-${{ runner.OS }}
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          build: npm run build
+          start: npm start
