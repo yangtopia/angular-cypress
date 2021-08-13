@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.9](https://github.com/yangtopia/angular-cypress/compare/v0.3.8...v0.3.9) (2021-08-13)
+
+
+### :bug: Bug Fix
+
+* test 7 ([5161d94](https://github.com/yangtopia/angular-cypress/commit/5161d94fb2a441e234ace7da57862cb43b4d0491))
+
 ### [0.3.8](https://github.com/yangtopia/angular-cypress/compare/v0.3.7...v0.3.8) (2021-08-13)
 
 
