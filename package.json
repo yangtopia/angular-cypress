@@ -11,8 +11,9 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "lint": "ng lint",
-    "pre-release": "git-branch-is master && echo Preversion checks passed.",
-    "release": "npm run pre-release && standard-version && git push --follow-tags"
+    "preversion": "git-branch-is master && echo Preversion checks passed.",
+    "version": "standard-version",
+    "release": "npm run version && git push --follow-tags"
   },
   "private": true,
   "husky": {
