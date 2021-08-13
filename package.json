@@ -1,6 +1,6 @@
 {
   "name": "angular-cypress",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +11,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "lint": "ng lint",
-    "release": "standard-version && git push --follow-tags"
+    "preversion": "git-branch-is master && echo Preversion checks passed.",
+    "version": "standard-version && git push --follow-tags"
   },
   "private": true,
   "husky": {
