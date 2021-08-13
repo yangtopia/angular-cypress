@@ -2,6 +2,8 @@ name: github-release
 
 on:
   push:
+    paths:
+      - 'src/**'
     tags:
       - "v*.*.*"
 
