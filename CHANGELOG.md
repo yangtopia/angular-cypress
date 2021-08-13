@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/yangtopia/angular-cypress/compare/v0.3.12...v0.4.0) (2021-08-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* `extends` key in config file is now used for extending other config files
+
+### :rocket: New Features
+
+* allow provided config object to extend other configs ([415bb01](https://github.com/yangtopia/angular-cypress/commit/415bb0136a826e5d4ebd4d88c74611af0f15ef5e))
+
 ### [0.3.12](https://github.com/yangtopia/angular-cypress/compare/v0.3.11...v0.3.12) (2021-08-13)
 
 
