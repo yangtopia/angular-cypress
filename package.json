@@ -11,7 +11,7 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "lint": "ng lint",
-    "release": "standard-version -a && git push --follow-tags origin master"
+    "release": "standard-version && git push --follow-tags"
   },
   "private": true,
   "husky": {

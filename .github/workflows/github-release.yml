@@ -9,17 +9,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Source Code
         uses: actions/checkout@v2
 
-      - name: Log
+      - name: Get Release Note
         uses: yashanand1910/standard-release-notes@v1.2.1
         id: get_release_notes
         with:
           changelog_path: ./CHANGELOG.md
           version: ${{ github.ref }}
 
-      - name: Release
+      - name: Create Release Note
         uses: softprops/action-gh-release@v1
         with:
           body: ${{ steps.get_release_notes.outputs.release_notes }}
