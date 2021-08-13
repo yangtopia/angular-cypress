@@ -1,6 +1,7 @@
 # AngularCypress
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6ddeb2c7689d4de3b56a5e8bca95fcd8)](https://app.codacy.com/gh/yangtopia/angular-cypress?utm_source=github.com&utm_medium=referral&utm_content=yangtopia/angular-cypress&utm_campaign=Badge_Grade_Settings)
+[![github-release](https://github.com/yangtopia/angular-cypress/actions/workflows/github-release.yml/badge.svg)](https://github.com/yangtopia/angular-cypress/actions/workflows/github-release.yml)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
